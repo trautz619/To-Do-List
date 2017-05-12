@@ -14,6 +14,9 @@
 		3FEEFBFE1EB8ED4D00A26E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEEFBFC1EB8ED4D00A26E92 /* LaunchScreen.storyboard */; };
 		3FEEFC091EB8ED4D00A26E92 /* toDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEFC081EB8ED4D00A26E92 /* toDoListTests.swift */; };
 		3FEEFC141EB8ED4D00A26E92 /* toDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEFC131EB8ED4D00A26E92 /* toDoListUITests.swift */; };
+		3FEEFC221EBA4C2C00A26E92 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEFC211EBA4C2C00A26E92 /* MapViewController.swift */; };
+		3FEEFC251EBA4F4200A26E92 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEEFC241EBA4F4200A26E92 /* MapKit.framework */; };
+		3FEEFC271EBB606300A26E92 /* toDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEFC261EBB606300A26E92 /* toDoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3FEEFC0F1EB8ED4D00A26E92 /* toDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEEFC131EB8ED4D00A26E92 /* toDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoListUITests.swift; sourceTree = "<group>"; };
 		3FEEFC151EB8ED4D00A26E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEEFC211EBA4C2C00A26E92 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3FEEFC241EBA4F4200A26E92 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3FEEFC261EBB606300A26E92 /* toDoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toDoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEEFC251EBA4F4200A26E92 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				3FEEFC071EB8ED4D00A26E92 /* toDoListTests */,
 				3FEEFC121EB8ED4D00A26E92 /* toDoListUITests */,
 				3FEEFBF11EB8ED4D00A26E92 /* Products */,
+				3FEEFC231EBA4F4200A26E92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +107,9 @@
 			children = (
 				3FEEFBF31EB8ED4D00A26E92 /* AppDelegate.swift */,
 				3FEEFBF51EB8ED4D00A26E92 /* ViewController.swift */,
+				3FEEFC211EBA4C2C00A26E92 /* MapViewController.swift */,
 				3FEEFBF71EB8ED4D00A26E92 /* Main.storyboard */,
+				3FEEFC261EBB606300A26E92 /* toDoList.swift */,
 				3FEEFBFA1EB8ED4D00A26E92 /* Assets.xcassets */,
 				3FEEFBFC1EB8ED4D00A26E92 /* LaunchScreen.storyboard */,
 				3FEEFBFF1EB8ED4D00A26E92 /* Info.plist */,
@@ -123,6 +133,14 @@
 				3FEEFC151EB8ED4D00A26E92 /* Info.plist */,
 			);
 			path = toDoListUITests;
+			sourceTree = "<group>";
+		};
+		3FEEFC231EBA4F4200A26E92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FEEFC241EBA4F4200A26E92 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FEEFBF61EB8ED4D00A26E92 /* ViewController.swift in Sources */,
+				3FEEFC221EBA4C2C00A26E92 /* MapViewController.swift in Sources */,
 				3FEEFBF41EB8ED4D00A26E92 /* AppDelegate.swift in Sources */,
+				3FEEFC271EBB606300A26E92 /* toDoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +525,7 @@
 				3FEEFC1A1EB8ED4D00A26E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FEEFC1B1EB8ED4D00A26E92 /* Build configuration list for PBXNativeTarget "toDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				3FEEFC1D1EB8ED4D00A26E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FEEFC1E1EB8ED4D00A26E92 /* Build configuration list for PBXNativeTarget "toDoListUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				3FEEFC201EB8ED4D00A26E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
